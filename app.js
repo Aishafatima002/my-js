@@ -49,17 +49,17 @@
 //     console.log("you are minor")
 // };
  
-//Q5
-// let number=prompt("Input a number");
-// if(number<7){
-//     console.log("It is positive");
-// }
-// else if(number==7){
-//     console.log("IT is zero")
-// }
-// else{
-//     console.log("It is negative")
-// }
+//Q6
+let number=prompt("Input a number");
+if(number>0){
+    console.log("It is positive");
+}
+else if(number<0){
+    console.log("IT is negative")
+}
+else{
+    console.log("It is  zero")
+}
 
 // // Q4
 // let raining=true
