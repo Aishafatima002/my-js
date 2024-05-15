@@ -50,16 +50,16 @@
 // };
  
 //Q6
-let number=prompt("Input a number");
-if(number>0){
-    console.log("It is positive");
-}
-else if(number<0){
-    console.log("IT is negative")
-}
-else{
-    console.log("It is  zero")
-}
+// let number=prompt("Input a number");
+// if(number>0){
+//     console.log("It is positive");
+// }
+// else if(number<0){
+//     console.log("IT is negative")
+// }
+// else{
+//     console.log("It is  zero")
+// }
 
 // // Q4
 // let raining=true
@@ -69,3 +69,25 @@ else{
 // else{
 //     console.log("enjoy the sunny weather")
 // }
+
+// //logical operators
+// //& and
+// //|| or
+//! not
+// let score=prompt("Enter your score")
+// if(score>=80 || score<=60){//& ,||
+//     console.log("you are passed");
+// }
+// else{
+//     console.log("you are failed")
+// };
+// let itsraining=true
+// if(!itsraining){
+//     console.log("it is not raining enjoy the day")
+// }
+// else{
+//     console.log("dont forget your umbrella")
+// }
+
+
+
