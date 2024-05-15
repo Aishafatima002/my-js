@@ -18,14 +18,11 @@
 // };
 
 //Q3
-// let score=prompt("Enter your score");
-// if(score>60){
+// let score=+prompt("Enter your score");
+// if(score>=60){
 //     console.log("you passed the test");
 // }
-// else if (score ==60){
-//     console.log("you are passed");
 
-// }
 // else {
 //     console.log("you are failed")
 // };
