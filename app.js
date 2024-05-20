@@ -88,6 +88,26 @@
 // else{
 //     console.log("dont forget your umbrella")
 // }
+//
+let wieght=prompt("enter weight");
+let time=prompt("your time");
+let age=prompt("your age");
+let gender=prompt("male");
+// if(wieght>300 && time<6 ){
+//     alert("come to our tryout");
+// }
+// else{
+//     alert("come to ur cookout")
+// };
+
+
+if(wieght>300&& time<6&& age>17 && gender==="male"){
+    alert("come to our tryout");
+}
+else{
+    alert("come to our cookout")
+};
+
 
 
 
