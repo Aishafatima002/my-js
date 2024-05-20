@@ -89,8 +89,8 @@
 //     console.log("dont forget your umbrella")
 // }
 //
-let wieght=prompt("enter weight");
-let time=prompt("your time");
+// let wieght=prompt("enter weight");
+// let time=prompt("your time");
 // let age=prompt("your age");
 // let gender=prompt("male");
 // // if(wieght>300 && time<6 ){
@@ -108,12 +108,80 @@ let time=prompt("your time");
 //     alert("come to our cookout")
 // };
 
-if(!(wieght>300 || time<6 )){
-       alert("come to our tryout");
+// if(!(wieght>300 || time<6 )){
+//        alert("come to our tryout");
+//     }
+// else{
+//     alert("come to ur cookout")
+//     };
+// nested statements
+// let x=10;
+// let y=5;
+// if (x > 5) {
+//     if (y > 2) {
+//         console.log("Both x and y are greater than their respective thresholds.");
+//     } else {
+//         console.log("x is greater than 5, but y is not greater than 2.");
+//     }
+// } else {
+//     console.log("x is not greater than 5, so the inner condition is not checked.");
+// }
+
+// let x=20;
+// let y=20;
+// let a=12;
+// let b=8;
+// let g=10;
+// let h=g;
+// if(x===y){
+//     if(a===b){
+//         g=h
+//         console.log("both are correct")
+//     }
+//     else{
+//         g!=h
+//         console.log("x is equal to y but a is not equalto b")
+//     }
+// }
+// else{
+
+//     console.log("both are incorrect")
+// }
+
+let temperature=15;
+let isSunny=true;
+if(temperature>25){
+    console.log("its hot outside")
+    if(isSunny){
+        console.log("dont forget to wear sunsscreen")
     }
+    else{
+        console.log('you might still  want to wear sunscreen.')
+    }
+}
+else if(temperature >= 15 && temperature <= 25){
+    console.log("It's a pleasant day.");
+  if(isSunny){
+    console.log("Enjoy the sunshine!");
+  }
+  else{
+    console.log("Even if it's cloudy, it's still nice outside.");
+}
+}
 else{
     alert("come to ur cookout")
     };
+    console.log("It's a bit chilly.");
+    if (isSunny) {
+        console.log("Don't be fooled by the sun, it's still cool.");
+    } else {
+        console.log("It might be cloudy, so bring a jacket just in case.");
+    }
+}
+
+
+
+
 
 
 
