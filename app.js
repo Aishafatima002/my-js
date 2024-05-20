@@ -91,23 +91,29 @@
 //
 let wieght=prompt("enter weight");
 let time=prompt("your time");
-let age=prompt("your age");
-let gender=prompt("male");
-// if(wieght>300 && time<6 ){
+// let age=prompt("your age");
+// let gender=prompt("male");
+// // if(wieght>300 && time<6 ){
+// //     alert("come to our tryout");
+// // }
+// // else{
+// //     alert("come to ur cookout")
+// // };
+
+
+// if(wieght>300&& time<6&& age>17 && gender==="male"){
 //     alert("come to our tryout");
 // }
 // else{
-//     alert("come to ur cookout")
+//     alert("come to our cookout")
 // };
 
-
-if(wieght>300&& time<6&& age>17 && gender==="male"){
-    alert("come to our tryout");
-}
+if(!(wieght>300 || time<6 )){
+       alert("come to our tryout");
+    }
 else{
-    alert("come to our cookout")
-};
-
+    alert("come to ur cookout")
+    };
 
 
 
