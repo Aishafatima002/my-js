@@ -48,7 +48,7 @@
 // else {
 //     console.log("you are minor")
 // };
- 
+
 //Q6
 // let number=prompt("Input a number");
 // if(number>0){
@@ -148,36 +148,103 @@
 //     console.log("both are incorrect")
 // }
 
-let temperature=15;
-let isSunny=true;
-if(temperature>25){
-    console.log("its hot outside")
-    if(isSunny){
-        console.log("dont forget to wear sunsscreen")
-    }
-    else{
-        console.log('you might still  want to wear sunscreen.')
-    }
-}
-else if(temperature >= 15 && temperature <= 25){
-    console.log("It's a pleasant day.");
-  if(isSunny){
-    console.log("Enjoy the sunshine!");
-  }
-  else{
-    console.log("Even if it's cloudy, it's still nice outside.");
-}
-}
-else{
-    alert("come to ur cookout")
-    };
-    console.log("It's a bit chilly.");
-    if (isSunny) {
-        console.log("Don't be fooled by the sun, it's still cool.");
-    } else {
-        console.log("It might be cloudy, so bring a jacket just in case.");
-    }
-}
+// let temperature=15;
+// let isSunny=true;
+// if(temperature>25){
+//     console.log("its hot outside")
+//     if(isSunny){
+//         console.log("dont forget to wear sunsscreen")
+//     }
+//     else{
+//         console.log('you might still  want to wear sunscreen.')
+//     }
+// }
+// else if(temperature >= 15 && temperature <= 25){
+//     console.log("It's a pleasant day.");
+//   if(isSunny){
+//     console.log("Enjoy the sunshine!");
+//   }
+//   else{
+//     console.log("Even if it's cloudy, it's still nice outside.");
+// }
+// }
+// else{
+//     console.log("It's a bit chilly.");
+//     if (isSunny) {
+//         console.log("Don't be fooled by the sun, it's still cool.");
+//     } else {
+//         console.log("It might be cloudy, so bring a jacket just in case.");
+//     }
+// }
+// let word=45
+
+//class activity
+
+// //Q1
+// let cityName=prompt("enter your city");
+// if(cityName=="karachi"){
+//     alert("Welcome to city of lights")
+// }
+// else{
+//     alert("you are not in karachi!")
+// }
+// //Q2
+// let gender=prompt("enter your gender");
+// if(gender=="male"){
+// document.write("Good morning Sir");}
+// else if(gender=="female"){
+//     document.write("Good mornig M'am")
+// }
+// //Q4
+// let signalColor=prompt("enter color");
+// if(signalColor=="red"){
+//     alert("must stop")
+// }
+// else if(signalColor=="yellow"||signalColor=="green"){
+//     alert("ready to move")
+//     if(signalColor=="green"){
+//         alert("move now")
+
+//     }
+
+
+
+
+
+// //chap=15
+// //arrays :all data type can store 
+// //collection of items
+// // var city0 = "Atlanta"; var city1 = "Baltimore"; var city2 = "Chicago"; var city3 = "Denver"; var city4 = "Los Angeles"; var city5 = "Seattle";
+// let cities=["atlanta","baltimore","chicago","denver","seattle","lo angeles"]
+// console.log(cities[0].length);
+// console.log(cities[1].length);
+// let number=[1,2,4 ,7,8];
+// console.log(number[6].length);//undefined
+
+
+// let info=["aisha",45,"sawera","maria",49];
+// // console.log
+
+
+// // (info[3].length);
+
+// let mixedArray=["tom",6,"hen",true]
+// // console.log(mixedArray)
+// console.log(mixedArray[2].length)
+
+//arrays methods
+//in round brackects
+//console.log(cities.push("pakistan"))
+let cities=["atlanta","baltimore","chicago","denver","seattle","lo angeles"]
+// console.log(cities.push("nepal"));
+// // cities.pop("nepal")
+// console.log(cities)
+cities.push(12,67)
+console.log(cities)
+console.log(cities.toString());
+
+
+
 
 
 
