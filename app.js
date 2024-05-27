@@ -235,13 +235,65 @@
 //arrays methods
 //in round brackects
 //console.log(cities.push("pakistan"))
-let cities=["atlanta","baltimore","chicago","denver","seattle","lo angeles"]
-// console.log(cities.push("nepal"));
-// // cities.pop("nepal")
+// let cities=["atlanta","baltimore","chicago","denver","seattle","lo angeles"]
+// // console.log(cities.push("nepal"));
+// // // cities.pop("nepal")
+// // console.log(cities)
+// cities.push(12,67)
 // console.log(cities)
-cities.push(12,67)
-console.log(cities)
-console.log(cities.toString());
+// console.log(cities.toString());
+
+//
+//array method
+//concat
+// let myGirls=["hira","maria"];
+// let myBoys=["ali","umer"]
+// let myChild=myBoys.concat(myGirls);
+// console.log(myBoys);
+// console.log(myChild);
+
+//unshift
+// add the text at start
+// let fruits=["apple","bannana","strawberry"]
+// fruits.unshift("lemon","gauva")
+// console.log(fruits)
+
+//shift
+// delete text at start
+// let number=[12,23,8,45];
+// console.log(number);
+// console.log(number.shift())
+//to donot show which value is deleted and print the array without it
+// number.shift ()
+// console.log(number)
+
+//slice
+//piece return of array
+// let fruits=["peach","lemon","apple","mango","banana"]
+// let piece_of_array=fruits.slice(0,-3)
+// console.log(piece_of_array);
+
+//splice
+// add n remove in original array
+// let fruits = ["peach", "lemon", "apple", "mango", "banana", "strawberry"];
+// let name = fruits.splice(2, 2, "cherry");
+// console.log(fruits)
+// console.log(name)
+//
+// class work
+// let companies=["bloomberg","microsoft","uber","google" ,"IBM","Netflix"]
+// let company1=[companies.shift()]
+// console.log(companies)
+// console.log(company1)
+// //
+// let remove=[companies.splice(2,1,"ola")]
+// console.log(companies)
+// console.log(remove)
+//
+// let add=[companies.push("amazon")]
+// console.log(companies)
+
+
 
 
 
