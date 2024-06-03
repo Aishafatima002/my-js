@@ -293,14 +293,89 @@
 // let add=[companies.push("amazon")]
 // console.log(companies)
 
+//loops
+// for(let i=0;i>20;i++){
+//     document.write("hello world")
+// }
+// for(let i=14; i<141;i=i+14){
+//     console.log(i)
+// }
+// for(let i=24;i<241;i=i+24){
+//     console.log(i)
+// }
+// let cleanestCities=["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"]
+// let cityToCheck="Great Falls";
+//  for (let i = 0; i <= 4; i++)
+//   {    if (cityToCheck === cleanestCities[3]) 
+//     {    alert("It's one of the cleanest cities");    } 
+//     else{
+//         alert("IT IS not ONE OF THE CLEANEST CITY")
+//     }
+// //  }
 
+// let monthsName=["jan","feb","march","april","may","june","july","august","sep","oct","nov","dec"]
+// let monthToCheck="june";
+// for(let i=0;i<=4;i++){
+//     if(monthToCheck===monthsName[5]){
+//         alert("Its my birthday month")
+//     }
+//     else if(monthToCheck===monthsName[2]){
+//         alert("my birthday is in  before month")
+//     }
+   
+// }
+//
+// let qualification=["ssc","hsc","bcs","bs","bcom","ms","mphill","phd"]
+// document.write("<h3> Qualification</h3>")
+// document.write("<ol>");
+// for(let i=0;i<=7;i++){
+//     document.write("<li> <b>"+qualification[i]+" </b></li>")
+// }
+// document.write("</ol>")
+//
+// let qualification=["mango","peach","gauva","apple","melon","cherry","banana","orange"]
+// document.write("<h3> Qualification</h3>")
+// document.write("<ul>");
+// for(let i=0;i<=7;i++){
+//     document.write("<li> <b>"+qualification[i]+" </b></li>")
+// }
+// document.write("</ul>")
+// let colorName=["red","black","green","blue","yellow"]
+// document.write("original array is"+colorName);
+// let color_to_add=prompt("enter the color of your choice")
+// colorName.unshift(color_to_add)
+// document.write(" <br> <br> updated array is"+colorName)
 
+//
+// let colorName=["red","black","green","blue","yellow"]
+// document.write("original array is"+colorName);
 
+// colorName.unshift("brown","pink")
+// colorName.shift("brown")
+// document.write(" <br> <br> updated array is"+colorName)
+//
+// let colorName=["red","black","green","blue","yellow"]
+// document.write("original array is"+colorName);
 
+// colorName.push("brown","purple")
+//colorName.pop("purple")
+// document.write(" <br> <br> updated array is"+colorName)
+//
+// let colorName=["red","black","green","blue","yellow"]
+// document.write("original array is"+colorName);
+// let index_to_add=prompt("at wich index color will be add")
+// let color_to_add=prompt("enter the color of your choice")
+// colorName.splice(index_to_add,0,color_to_add)
+// document.write(" <br> <br> updated array is"+colorName)
 
+// let colorName=["red","black","green","blue","yellow"]
+// document.write("original array is"+colorName);
+// let index_to_add=prompt("at wich index color will be  delete")
 
-
-
-
-
-
+// colorName.splice(index_to_add,4,)
+// document.write(" <br> <br> updated array is"+colorName)
+//
+// let scores=["320","230","430","120"]
+// document.write("<h3>scores of student</h3>"+scores)
+// scores.sort()
+// document.write("<h3>ordered scores of student</h3>"+scores)
