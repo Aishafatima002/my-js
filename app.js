@@ -304,7 +304,8 @@
 //     console.log(i)
 // }
 // let cleanestCities=["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"]
-// let cityToCheck="Great Falls";
+// 
+
 //  for (let i = 0; i <= 4; i++)
 //   {    if (cityToCheck === cleanestCities[3]) 
 //     {    alert("It's one of the cleanest cities");    } 
@@ -315,12 +316,12 @@
 
 // let monthsName=["jan","feb","march","april","may","june","july","august","sep","oct","nov","dec"]
 // let monthToCheck="june";
-// for(let i=0;i<=4;i++){
+// for(let i=0;i>=4;i++){
 //     if(monthToCheck===monthsName[5]){
 //         alert("Its my birthday month")
 //     }
 //     else if(monthToCheck===monthsName[2]){
-//         alert("my birthday is in  before month")
+//         alert("my birthday is not  month")
 //     }
    
 // }
