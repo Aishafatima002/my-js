@@ -69,3 +69,22 @@
 // }
 
 //
+// let intro="Aisha";
+// for(let i=0;i<intro.length;i++){
+//     console.log(intro[i]);
+// }
+// let num1=5;
+// let num2=3;
+// console.log("sum of num1 & sum of num2:"+""+(num1+num2));
+// console.log("multiplyby 2:"+""+((num1+num2)*2))
+
+// let length="10"
+// let width="5"
+// console.log("lxb is:"+(length*width))
+// //
+// let a=5
+// let b=10
+// let c=++a*b--;
+// console.log(a)
+// console.log(b)
+// console.log(c)
