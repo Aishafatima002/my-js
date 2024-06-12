@@ -88,3 +88,49 @@
 // console.log(a)
 // console.log(b)
 // console.log(c)
+
+
+//Assignment
+    // //Q1
+    // let fruits=["apple","banana","peach","orange","strawberry"];
+    // document.write("element at index 0 is "+"" + fruits[0])
+    // document.write(" <br>element at index 0 is  "+ "" +fruits[1])
+    // document.write(" <br>element at index 0 is  "+ "" +fruits[2])
+    // document.write(" <br> element at index 0 is  "+ "" +fruits[3])
+    // document.write(" <br> element at index 0 is  "+ "" +fruits[4])
+ //     Q2
+ //parta
+//  document.write("<h2>COUNTING</h2>");
+//  for(let i=0;i<=15;i++){
+//     document.write(i+""+ ",")
+//  }
+//partb
+// document.write("<h2> REVERSE COUNTING </h2>");
+// for(let i=15;i>=0;i--){
+//     document.write(i+""+",")
+// }
+// part c
+// document.write("<h2> even conting </h2>")
+// for(let i=0;i<=20;i+=2){
+//     document.write(i+""+",")
+// }
+//part d
+// document.write("<h2> odd conting </h2>")
+// for(let i=1;i<=20;i+=2){
+//     document.write(i+""+",")
+// }
+//part e
+// document.write("<h2> series conting </h2>")
+// for(let i=2;i<=20;i+=2){
+//     document.write(i+"k"+""+",")
+// }
+// //  Q3
+// let things=["cake","donuts","chips","nimco","paties"];
+// let userInput=prompt("   WELCOME! to ABC bakery,What you want  to order sir/mam");
+// let found=things.includes(userInput);
+// if(found){
+//     document.write(userInput+ "" +"is available in our bakery")
+// }
+// else{
+//     document.write("sorry"+userInput+"is not avialable in our bakery")
+// }
